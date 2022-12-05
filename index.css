@@ -4,28 +4,33 @@ body, html{
 
 .zoom {
     position: absolute;
-    top: 30vh;
     will-change: transform;
     width: 100%;
-    transform: scale(2.2);
+    height: 53.5%;
+    top: 45%;
+    transform: scale(1.2);
   }
+  
   .zoom2 {
-    visibility: hidden;
+    visibility: none;
     position: absolute;
     overflow: hidden;
-    top: 30vh;
     will-change: transform;
     width: 100%;
-    transform: scale(2.2);
+    top: 45%;
+    height: 60%;
+    transform: scale(2);
   }
 
   .bottom {
     height: 100vh;
+    background-color: red;
   }
   
   .top {
     position: relative;
     height: 100vh;
+    background-color: blue;
   }
   p{
     font-size: 3rem;

@@ -11,8 +11,8 @@ addEventListener('scroll', e => {
   const start = 100 * vh;
   const stop = 200 * vh;
   if (scrollTop > start && scrollTop < stop) {
-	  const scale = Math.max(2.2 - (scrollTop - start) / 500, 0.5);
-      const scale2 = Math.max(2.2 - (scrollTop - start) / 500, 1);
+	  const scale = Math.max(1 - (scrollTop - start) / 500, 0.63);
+      const scale2 = Math.max(2 - (scrollTop - start) / 500, 0.8);
     zoom.style.transform = `scale(${scale})`
     zoom2.style.transform = `scale(${scale2})`
     zoom2.style.visibility='visible'
