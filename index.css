@@ -10,6 +10,7 @@ body, html{
     transform: scale(2.2);
   }
   .zoom2 {
+    visibility: hidden;
     position: absolute;
     overflow: hidden;
     top: 30vh;
@@ -25,6 +26,9 @@ body, html{
   .top {
     position: relative;
     height: 100vh;
+  }
+  p{
+    font-size: 3rem;
   }
   
   .wrap {

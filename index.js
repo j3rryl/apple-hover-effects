@@ -15,5 +15,6 @@ addEventListener('scroll', e => {
       const scale2 = Math.max(2.2 - (scrollTop - start) / 500, 1);
     zoom.style.transform = `scale(${scale})`
     zoom2.style.transform = `scale(${scale2})`
+    zoom2.style.visibility='visible'
   } 
 })
