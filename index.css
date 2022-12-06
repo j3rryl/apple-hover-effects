@@ -1,5 +1,6 @@
 body, html{
-    overflow-x: hidden;
+  /* height: 100%; */
+  
 }
 
 .zoom {
@@ -7,19 +8,18 @@ body, html{
     will-change: transform;
     width: 100%;
     height: 53.5%;
-    top: 45%;
+    top: 5%;
     transform: scale(1.2);
   }
   
   .zoom2 {
-    visibility: none;
+    /* visibility: none; */
     position: absolute;
-    overflow: hidden;
     will-change: transform;
     width: 100%;
-    top: 45%;
+    top: 55%;
     height: 60%;
-    transform: scale(2);
+    transform: scale(0.5);
   }
 
   .bottom {
@@ -37,7 +37,7 @@ body, html{
   }
   
   .wrap {
-    position: relative;
+    position: sticky;
     height: 150vh;
     overflow: hidden;
   }
